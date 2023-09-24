@@ -1,7 +1,6 @@
 using System.Linq;
 using UnityEngine;
 
-[ExecuteAlways] // This line give opportunity to play in edit mode.
 public class BombSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] prefabs;
@@ -9,7 +8,7 @@ public class BombSpawner : MonoBehaviour
     [SerializeField] private float[,] endPoint = {{3.05f},{3.1f}}; // where end cloning.
 
     private float difference = 1.25f; // distance between spawnpoints.
-    
+[ContextMenu("Spawn Bombs")]
     void Start()
     {
         FillIn(); // function which fill in chart.
@@ -24,7 +23,7 @@ public class BombSpawner : MonoBehaviour
     }
 
 #if UNITY_EDITOR //code after this line will lose after compilation.
-    [ContextMenu("Spawn Bombs")]
+
     void Awake(){
         if (Application.isPlaying){
         Destroyer();
