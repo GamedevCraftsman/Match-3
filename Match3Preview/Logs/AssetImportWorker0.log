@@ -11,13 +11,13 @@ D:\Unity\2022.3.9f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Foxminded/GitCloneVS/GITClone/GitlabMatch3/Match3Preview
+D:/Foxminded/GitCloneVS/GITClone/GitlabMatch3/Match-3/match-3/Match3Preview
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49988
-Successfully changed project path to: D:/Foxminded/GitCloneVS/GITClone/GitlabMatch3/Match3Preview
-D:/Foxminded/GitCloneVS/GITClone/GitlabMatch3/Match3Preview
+51026
+Successfully changed project path to: D:/Foxminded/GitCloneVS/GITClone/GitlabMatch3/Match-3/match-3/Match3Preview
+D:/Foxminded/GitCloneVS/GITClone/GitlabMatch3/Match-3/match-3/Match3Preview
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ D:/Foxminded/GitCloneVS/GITClone/GitlabMatch3/Match3Preview
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10996] Host "[IP] 192.168.0.31 [Port] 0 [Flags] 2 [Guid] 2473828994 [EditorId] 2473828994 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7ODLL65) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11356] Host "[IP] 192.168.0.31 [Port] 0 [Flags] 2 [Guid] 3426613601 [EditorId] 3426613601 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7ODLL65) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10996] Host "[IP] 192.168.0.31 [Port] 0 [Flags] 2 [Guid] 2473828994 [EditorId] 2473828994 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7ODLL65) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11356] Host "[IP] 192.168.0.31 [Port] 0 [Flags] 2 [Guid] 3426613601 [EditorId] 3426613601 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7ODLL65) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 4.78 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 4.00 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path D:/Unity/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Foxminded/GitCloneVS/GITClone/GitlabMatch3/Match3Preview/Assets
+[Subsystems] Discovering subsystems at path D:/Foxminded/GitCloneVS/GITClone/GitlabMatch3/Match-3/match-3/Match3Preview/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004121 seconds.
-- Loaded All Assemblies, in  0.372 seconds
+Registered in 0.004231 seconds.
+- Loaded All Assemblies, in  0.463 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 252 ms
+Android Extension - Scanning For ADB Devices 276 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.624 seconds
-Domain Reload Profiling: 995ms
-	BeginReloadAssembly (121ms)
+- Finished resetting the current domain, in  0.615 seconds
+Domain Reload Profiling: 1077ms
+	BeginReloadAssembly (137ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (150ms)
-		LoadAssemblies (121ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (137ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (147ms)
-			TypeCache.Refresh (146ms)
-				TypeCache.ScanAssembly (132ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (170ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (625ms)
+	FinalizeReload (615ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (562ms)
+		SetupLoadedEditorAssemblies (552ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (379ms)
+			InitializePlatformSupportModulesInManaged (400ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (128ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 995ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.430 seconds
-Refreshing native plugins compatible for Editor in 1.78 ms, found 5 plugins.
+- Loaded All Assemblies, in  0.442 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,26 +127,26 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.474 seconds
-Domain Reload Profiling: 905ms
-	BeginReloadAssembly (149ms)
+- Finished resetting the current domain, in  0.478 seconds
+Domain Reload Profiling: 920ms
+	BeginReloadAssembly (141ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (205ms)
-		LoadAssemblies (197ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (219ms)
+		LoadAssemblies (201ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (93ms)
-			TypeCache.Refresh (78ms)
-				TypeCache.ScanAssembly (61ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (475ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (68ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (479ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (323ms)
@@ -155,193 +155,55 @@ Domain Reload Profiling: 905ms
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (236ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.48 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1550 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (56.5 KB). Loaded Objects now: 2014.
-Memory consumption went from 86.6 MB to 86.5 MB.
-Total: 2.496300 ms (FindLiveObjects: 0.134000 ms CreateObjectMapping: 0.077800 ms MarkObjects: 2.202800 ms  DeleteObjects: 0.080800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 326628.702686 seconds.
-  path: Assets/Game/Sprites/candy8_orange_bomb.png
-  artifactKey: Guid(16fbb2491eeb0f94ebad95327da79541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/candy8_orange_bomb.png using Guid(16fbb2491eeb0f94ebad95327da79541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc05c70b0de4039be441158c009ddf03') in 0.058734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Game/Sprites/candy8_green_bomb.png
-  artifactKey: Guid(950c66cedc5b9ab41a5adb49bb47074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/candy8_green_bomb.png using Guid(950c66cedc5b9ab41a5adb49bb47074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5f78f07e9102b167fcbf47e286a0e0') in 0.011875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/candy8_blue_bomb.png
-  artifactKey: Guid(19a072425c5f2a642bbb3ebed620c1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/candy8_blue_bomb.png using Guid(19a072425c5f2a642bbb3ebed620c1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ba1944ca4070e43d1d49ced315e2bd') in 0.010832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game/Sprites/game bg2.jpg
-  artifactKey: Guid(788a7f0fa0891c7428029d980a388a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/game bg2.jpg using Guid(788a7f0fa0891c7428029d980a388a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8936c5e36e7ebbf769a8b4563b66b5b6') in 0.015705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.83 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 2018.
-Memory consumption went from 59.3 MB to 59.3 MB.
-Total: 3.121800 ms (FindLiveObjects: 0.201100 ms CreateObjectMapping: 0.091700 ms MarkObjects: 2.807900 ms  DeleteObjects: 0.019900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 20.550699 seconds.
-  path: Assets/Game/Sprites
-  artifactKey: Guid(e7f61b9516d4c534ab8d330911b5a45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites using Guid(e7f61b9516d4c534ab8d330911b5a45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c450b978761136850f0cf77a54fd3452') in 0.000916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.027946 seconds.
-  path: Assets/Game/Sprites/candy8_green_bomb.png
-  artifactKey: Guid(950c66cedc5b9ab41a5adb49bb47074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/candy8_green_bomb.png using Guid(950c66cedc5b9ab41a5adb49bb47074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61222ba9155fe767aa082fc96de7c442') in 0.031762 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.310702 seconds.
-  path: Assets/Game/Sprites/candy8_orange_bomb.png
-  artifactKey: Guid(16fbb2491eeb0f94ebad95327da79541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/candy8_orange_bomb.png using Guid(16fbb2491eeb0f94ebad95327da79541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93aab148db9887664b512ae16f221322') in 0.018336 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 6.671501 seconds.
-  path: Assets/Game/Sprites/candy8_purple_bomb.png
-  artifactKey: Guid(91cf37e0e6b57f444863db2a9587eafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/candy8_purple_bomb.png using Guid(91cf37e0e6b57f444863db2a9587eafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829235e8fcf8e63cce5bcf1ca11adfe1') in 0.020182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.667064 seconds.
-  path: Assets/Game/Sprites/candy8_red_bomb.png
-  artifactKey: Guid(5c7c8f08935fea849be0707467cae31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/candy8_red_bomb.png using Guid(5c7c8f08935fea849be0707467cae31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecfe816602eb5c05ecf73ab08e1bafd') in 0.015997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.205372 seconds.
-  path: Assets/Game/Sprites/fish.png
-  artifactKey: Guid(0a61d954b230a024e8d8d23050eb6a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/fish.png using Guid(0a61d954b230a024e8d8d23050eb6a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a44c93583062ee51ab28e1d42c21d5d') in 0.026705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 6.207729 seconds.
-  path: Assets/Game/Sprites/game bg2.jpg
-  artifactKey: Guid(788a7f0fa0891c7428029d980a388a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/game bg2.jpg using Guid(788a7f0fa0891c7428029d980a388a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ed0d5a716eab3f95c5e09c8785fd97') in 0.020187 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.459 seconds
-Refreshing native plugins compatible for Editor in 1.55 ms, found 5 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.720 seconds
-Domain Reload Profiling: 1179ms
-	BeginReloadAssembly (227ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (215ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (720ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (389ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (288ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 1.45 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.18 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1541 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.8 KB). Loaded Objects now: 2032.
-Memory consumption went from 83.4 MB to 83.4 MB.
-Total: 2.429200 ms (FindLiveObjects: 0.148900 ms CreateObjectMapping: 0.088500 ms MarkObjects: 2.156600 ms  DeleteObjects: 0.034200 ms)
+Unloading 1592 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (48.3 KB). Loaded Objects now: 2056.
+Memory consumption went from 89.0 MB to 88.9 MB.
+Total: 2.440700 ms (FindLiveObjects: 0.129200 ms CreateObjectMapping: 0.079000 ms MarkObjects: 2.158000 ms  DeleteObjects: 0.073500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 330839.847636 seconds.
+  path: Assets/Game/Scripts
+  artifactKey: Guid(bc0057d7cdde7a54cbafbe71f291f9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scripts using Guid(bc0057d7cdde7a54cbafbe71f291f9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b57220adf5535bb018d2262a9bdceb') in 0.002014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game
+  artifactKey: Guid(7993e0b1cba48b34eb2624f4c9e14014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game using Guid(7993e0b1cba48b34eb2624f4c9e14014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31626ade36ca2cbf1f403b3f75e862e2') in 0.000294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.80 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (5.2 KB). Loaded Objects now: 2057.
+Memory consumption went from 60.8 MB to 60.8 MB.
+Total: 2.419200 ms (FindLiveObjects: 0.139600 ms CreateObjectMapping: 0.091900 ms MarkObjects: 2.172000 ms  DeleteObjects: 0.014900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -358,56 +220,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 11.879848 seconds.
+  path: Assets/Game/Scripts/BombSpawner.cs
+  artifactKey: Guid(24f85645452a8264ba08027ecfde7776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scripts/BombSpawner.cs using Guid(24f85645452a8264ba08027ecfde7776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54605902a157318091afdeb37f668aa2') in 0.000721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.405 seconds
-Refreshing native plugins compatible for Editor in 1.51 ms, found 5 plugins.
+- Loaded All Assemblies, in  0.400 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.653 seconds
-Domain Reload Profiling: 1057ms
-	BeginReloadAssembly (197ms)
+- Finished resetting the current domain, in  0.645 seconds
+Domain Reload Profiling: 1045ms
+	BeginReloadAssembly (192ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (136ms)
-		LoadAssemblies (201ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (198ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (653ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (646ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (363ms)
+		SetupLoadedEditorAssemblies (367ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (269ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 1.77 ms, found 5 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.01 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1577 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 2071.
-Memory consumption went from 85.5 MB to 85.5 MB.
-Total: 2.197100 ms (FindLiveObjects: 0.132000 ms CreateObjectMapping: 0.086500 ms MarkObjects: 1.943800 ms  DeleteObjects: 0.034000 ms)
+Unloading 1578 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (30.7 KB). Loaded Objects now: 2060.
+Memory consumption went from 85.4 MB to 85.4 MB.
+Total: 2.789800 ms (FindLiveObjects: 0.137900 ms CreateObjectMapping: 0.203700 ms MarkObjects: 2.399900 ms  DeleteObjects: 0.047000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -425,1101 +295,91 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 72.196436 seconds.
-  path: Assets/Game/Sprites/fish.png
-  artifactKey: Guid(0a61d954b230a024e8d8d23050eb6a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/fish.png using Guid(0a61d954b230a024e8d8d23050eb6a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e34d00101b8f6a47c5802ef49807b9') in 0.084826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 12.016632 seconds.
-  path: Assets/Game/Sprites/fish.png
-  artifactKey: Guid(0a61d954b230a024e8d8d23050eb6a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/fish.png using Guid(0a61d954b230a024e8d8d23050eb6a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eafdae234051957347bf7640be14fec') in 0.093471 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 18.234816 seconds.
-  path: Assets/Game/Sprites/Candy/ball1.png
-  artifactKey: Guid(af1a5a0fe0fa98c40827b6ec06676ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/ball1.png using Guid(af1a5a0fe0fa98c40827b6ec06676ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08b638877bcd9a8f66224a351a00675') in 0.018028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_blue_03.png
-  artifactKey: Guid(61dfd8aff86bd1d4d8f6c4a0d6cc916c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy1_blue_03.png using Guid(61dfd8aff86bd1d4d8f6c4a0d6cc916c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17524a2f2a89b603845bacea49ff5596') in 0.015884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_blue_01.png
-  artifactKey: Guid(7f71e024d9332c74a8d06cc9867f279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy1_blue_01.png using Guid(7f71e024d9332c74a8d06cc9867f279b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f205ee5d8ab117d141a3ed03eeac2d2e') in 0.017152 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_green_02.png
-  artifactKey: Guid(6c3ce8fb9a2af7e4c9fecb6a58876a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy1_green_02.png using Guid(6c3ce8fb9a2af7e4c9fecb6a58876a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433130b81a75ff74c69926fec8c27084') in 0.016415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/box.png
-  artifactKey: Guid(cd198831b51c4a5449e3c9b363e45a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/box.png using Guid(cd198831b51c4a5449e3c9b363e45a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0031009062ba67258ae62a7cf43041ff') in 0.016692 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_blue_02.png
-  artifactKey: Guid(f0f9d41c84cd23f4aacb29de3ba49c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy1_blue_02.png using Guid(f0f9d41c84cd23f4aacb29de3ba49c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc0c8821d4730713a73a8a6421bfbf1') in 0.017083 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.105914 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_green_03.png
-  artifactKey: Guid(21e9450abf8b7414785992248c224ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy1_green_03.png using Guid(21e9450abf8b7414785992248c224ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa9245654009e3c7951c849602112fa') in 0.017943 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.085201 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_orange_02.png
-  artifactKey: Guid(fd5f5e411511e3a4d8cf936dbb033301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy1_orange_02.png using Guid(fd5f5e411511e3a4d8cf936dbb033301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0c95924206ddfc45acfbd98cb31e62') in 0.015894 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.031670 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_purple_01.png
-  artifactKey: Guid(0c650e9a914ac1d4b814ff43b10a014a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy1_purple_01.png using Guid(0c650e9a914ac1d4b814ff43b10a014a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88d97f7133948454d27fd8eda21aa7d') in 0.014807 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.340624 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_purple_03.png
-  artifactKey: Guid(187fd4b28e4c7bb47ba500bec2e916b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy1_purple_03.png using Guid(187fd4b28e4c7bb47ba500bec2e916b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d283b06c797876c2815d008cfe713a') in 0.018040 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_red_03.png
-  artifactKey: Guid(7a90a2d4c6a3d424cbf8b5999091a311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy1_red_03.png using Guid(7a90a2d4c6a3d424cbf8b5999091a311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0fc0859aa0c8adfe6f356f77c6d3da') in 0.023707 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.030362 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_yellow_01.png
-  artifactKey: Guid(8d9d26032c946d949a741e51ed74d475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy1_yellow_01.png using Guid(8d9d26032c946d949a741e51ed74d475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3ce0cc345ce05b0a30ce184b329c58') in 0.028861 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_yellow_03.png
-  artifactKey: Guid(81cd773194640e7418cabfddcda41317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy1_yellow_03.png using Guid(81cd773194640e7418cabfddcda41317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5710e38dae0ea4ac2f37b733cc2c4b') in 0.020620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.280201 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_blue_02.png
-  artifactKey: Guid(388bdaf538823dc469b1e44236fd76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy2_blue_02.png using Guid(388bdaf538823dc469b1e44236fd76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90288ca6e6ac9d80f10e79656dd4b81') in 0.027010 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_green_01.png
-  artifactKey: Guid(917d3e8eb37f57f4f998d2216e4277e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy2_green_01.png using Guid(917d3e8eb37f57f4f998d2216e4277e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7ffb91fffc704b8a7556765bfcb00d') in 0.022136 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.014686 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_green_03.png
-  artifactKey: Guid(bfc797c770499d0449150825d9662538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy2_green_03.png using Guid(bfc797c770499d0449150825d9662538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1971b7370d8640c0ac61cdc96a50c52') in 0.021014 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.015906 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_orange_02.png
-  artifactKey: Guid(5de16284931ccc645bcff69a7300c52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy2_orange_02.png using Guid(5de16284931ccc645bcff69a7300c52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7779fcadb2a2f9b9708b34743b4de63') in 0.016747 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.256205 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_purple_01.png
-  artifactKey: Guid(5216a1650ee3ae0489adedfd75823bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy2_purple_01.png using Guid(5216a1650ee3ae0489adedfd75823bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2292fb78628f83c56320fd5085f99f40') in 0.026899 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.033674 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_purple_03.png
-  artifactKey: Guid(96c9e383c0ca2b94f8960359674e3e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy2_purple_03.png using Guid(96c9e383c0ca2b94f8960359674e3e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354f529504812da38491576afb80de4d') in 0.032246 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_yellow_01.png
-  artifactKey: Guid(05c4bf0d026c78f41b9f4cc0c483cbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy2_yellow_01.png using Guid(05c4bf0d026c78f41b9f4cc0c483cbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaa20572faf2cf0e7e56b1b6028ea72') in 0.022124 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_red_03.png
-  artifactKey: Guid(8edf9517cb6e90848af23d60d5b9eec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy2_red_03.png using Guid(8edf9517cb6e90848af23d60d5b9eec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4405b28c0844b3ca1ce6d4dc5eefd26') in 0.020149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game/Sprites/Candy/candy3_purple_01.png
-  artifactKey: Guid(c243ea0c1f20ed4449ccceab2e19a90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy3_purple_01.png using Guid(c243ea0c1f20ed4449ccceab2e19a90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e0245afda9d4c8fe3759fea16b1d78') in 0.016891 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.357431 seconds.
-  path: Assets/Game/Sprites/Candy/candy3_purple_02.png
-  artifactKey: Guid(80a7fe2ed8f48644b9576ad877c106b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy3_purple_02.png using Guid(80a7fe2ed8f48644b9576ad877c106b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa838f8a28437e501e8c7f32f9a91653') in 0.023144 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.017261 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_blue_01.png
-  artifactKey: Guid(141705717e71b09488a2345ae5e3f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy4_blue_01.png using Guid(141705717e71b09488a2345ae5e3f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b678f5713245908883129cd5092873b2') in 0.024601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_green_03.png
-  artifactKey: Guid(ae25f9637575d834cae9bc253bc9481a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy4_green_03.png using Guid(ae25f9637575d834cae9bc253bc9481a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9275c6e08f6bd362736931d64b4aed') in 0.019022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_green_02.png
-  artifactKey: Guid(6fc44e63aec750346b529018ba87846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy4_green_02.png using Guid(6fc44e63aec750346b529018ba87846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8bdbbc19b5c6791f97dd5f92aca0c9') in 0.021873 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.207294 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_orange_01.png
-  artifactKey: Guid(08b6d513152d6f94eaf921ae4d6c28d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy4_orange_01.png using Guid(08b6d513152d6f94eaf921ae4d6c28d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c091aeb140d7d8001a9d788cfb034f8') in 0.027697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_red_01.png
-  artifactKey: Guid(672b4c073d24a734f877c8a7f9271682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy4_red_01.png using Guid(672b4c073d24a734f877c8a7f9271682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1240b94bc762b96c33a20daee17e80') in 0.020680 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.030297 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_red_02.png
-  artifactKey: Guid(21356d533bf482b4b94999d3c0d629b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy4_red_02.png using Guid(21356d533bf482b4b94999d3c0d629b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68553ca88d25c92947d15894192d6198') in 0.019953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.207536 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_yellow_01.png
-  artifactKey: Guid(2c123415a492af24fa299205523efdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy4_yellow_01.png using Guid(2c123415a492af24fa299205523efdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18de903931d8f1ad377235287ac4e0c') in 0.019678 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_yellow_03.png
-  artifactKey: Guid(172d83eefefb66d4bb7244d2b5434208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy4_yellow_03.png using Guid(172d83eefefb66d4bb7244d2b5434208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5612e6c6644dea47199c495684a87a4') in 0.018774 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.022134 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_blue_02.png
-  artifactKey: Guid(e2458d89cefbf9a46acedcdcd968036b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy5_blue_02.png using Guid(e2458d89cefbf9a46acedcdcd968036b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34b8d77067886333889d772b94787e5') in 0.018759 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.198992 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_green_01.png
-  artifactKey: Guid(5e8e896a95a888847a6f86805437db2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy5_green_01.png using Guid(5e8e896a95a888847a6f86805437db2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bf81247361c310f0dd35842f4bda6d') in 0.018970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.034014 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_green_03.png
-  artifactKey: Guid(aa0a5e80151bc9a4f9d88d324135b431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy5_green_03.png using Guid(aa0a5e80151bc9a4f9d88d324135b431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e506aa83b10b24fb4e98afd0e983fa69') in 0.027414 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_purple_02.png
-  artifactKey: Guid(8216fb9b0e8ad9745bf520e354cd76ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy5_purple_02.png using Guid(8216fb9b0e8ad9745bf520e354cd76ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5406f65c9f9a94ff7d0cd84db7f89352') in 0.018329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_purple_01.png
-  artifactKey: Guid(b990290d488981e4daef720df21cac96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy5_purple_01.png using Guid(b990290d488981e4daef720df21cac96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257626a6c0d4bd5c8b75edf257ace9c0') in 0.018274 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.176987 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_purple_03.png
-  artifactKey: Guid(f51dff27ffbdf8747863dccab8e79969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy5_purple_03.png using Guid(f51dff27ffbdf8747863dccab8e79969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c310548c3b664948bcd1c43483fabeb') in 0.027446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_red_03.png
-  artifactKey: Guid(0032c7f8566aa454aa2faaec0828acfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy5_red_03.png using Guid(0032c7f8566aa454aa2faaec0828acfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48f3fab7a5a6293b9095ef5b04829b2') in 0.021004 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.014728 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_yellow_01.png
-  artifactKey: Guid(76925affccd7b644c8107ba592f580e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy5_yellow_01.png using Guid(76925affccd7b644c8107ba592f580e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1551c06a3b8c571ba8ce116146ea6000') in 0.023011 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_yellow_03.png
-  artifactKey: Guid(105fb077211e1d641b293aaa03c25e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy5_yellow_03.png using Guid(105fb077211e1d641b293aaa03c25e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb72be3f7c0b67dbe02bc835c84c5ed') in 0.020171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_blue_03.png
-  artifactKey: Guid(9b60c6e74cf34614a945525c7c3e07fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy6_blue_03.png using Guid(9b60c6e74cf34614a945525c7c3e07fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531cd1efab518af45576de6aef7764ac') in 0.020478 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_green_02.png
-  artifactKey: Guid(7ffc474fc0312ff448179bc3ddb86de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy6_green_02.png using Guid(7ffc474fc0312ff448179bc3ddb86de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20241356f582de0fce60e1e68b38be4') in 0.023445 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.206301 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_green_03.png
-  artifactKey: Guid(b2c7ca791e7935e48af7fef7b3f2dff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy6_green_03.png using Guid(b2c7ca791e7935e48af7fef7b3f2dff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec82dc4a5747583f9023093a8250933c') in 0.023598 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_orange_03.png
-  artifactKey: Guid(28fd43831d9e3cb4698e19dfcb20d3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy6_orange_03.png using Guid(28fd43831d9e3cb4698e19dfcb20d3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f0af87006e81edb755780266613efc') in 0.023277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_purple_01.png
-  artifactKey: Guid(f4af0fa8dc6ee4441ac3bc42d3b955c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy6_purple_01.png using Guid(f4af0fa8dc6ee4441ac3bc42d3b955c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9612d42b117b0cd10b59b224a2dc8463') in 0.019488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_red_01.png
-  artifactKey: Guid(d559c08fd21b18d4ea5a51ff9d072a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy6_red_01.png using Guid(d559c08fd21b18d4ea5a51ff9d072a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf4ed804b0218d6bbf49e1ea2207c7d') in 0.017761 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.217011 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_red_02.png
-  artifactKey: Guid(5706f4113c37e194889901d9331de93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy6_red_02.png using Guid(5706f4113c37e194889901d9331de93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61dec2db18ca3d4ccba5272d110fdfb') in 0.019344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.019676 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_yellow_01.png
-  artifactKey: Guid(feae4bfcfbc14754db05846f4b6a43fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy6_yellow_01.png using Guid(feae4bfcfbc14754db05846f4b6a43fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d248a2a82ef78ba533253d58ff54867') in 0.018241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_yellow_03.png
-  artifactKey: Guid(52f8faade53be5a4f8f85a07e6fb62d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy6_yellow_03.png using Guid(52f8faade53be5a4f8f85a07e6fb62d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2afcae0bb48992962a610b6b7774f4f') in 0.020865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.016738 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_blue_02.png
-  artifactKey: Guid(b0b4eaf664f98d945b886d5a5a4f64b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy7_blue_02.png using Guid(b0b4eaf664f98d945b886d5a5a4f64b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6daf3e5c2ac58fc7aac141d12469b1dc') in 0.018612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.195615 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_green_01.png
-  artifactKey: Guid(0de0f0af4c170b542b6a95090d965ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy7_green_01.png using Guid(0de0f0af4c170b542b6a95090d965ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fce3188f307b4f27444e5c8f68765e') in 0.023104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.032964 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_green_03.png
-  artifactKey: Guid(d5063fc5dbb24894482584e05df043ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy7_green_03.png using Guid(d5063fc5dbb24894482584e05df043ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd692e8075e7c0ab191720d6d19c3266') in 0.016213 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_orange_03.png
-  artifactKey: Guid(5339d8d3e9d5c404fa7147d8b07af63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy7_orange_03.png using Guid(5339d8d3e9d5c404fa7147d8b07af63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c832e6d04bba4610a574d736bb2ea6c6') in 0.019986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.017299 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_purple_01.png
-  artifactKey: Guid(f51e517586c8a0c4d8742b00ec1064be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy7_purple_01.png using Guid(f51e517586c8a0c4d8742b00ec1064be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3484f93d01ff24dc029392fc7cf1ac') in 0.020507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.187931 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_purple_03.png
-  artifactKey: Guid(dee5e740e57d3f14bb4fb9d5fc79b148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy7_purple_03.png using Guid(dee5e740e57d3f14bb4fb9d5fc79b148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9df16f6424d1f5853e5451e530b6e7') in 0.019470 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.020723 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_red_02.png
-  artifactKey: Guid(af0e30b90379c7d4cbefc7cced91b069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy7_red_02.png using Guid(af0e30b90379c7d4cbefc7cced91b069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ec9c0c8178559c64f9943dbb62b231') in 0.018071 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_yellow_02.png
-  artifactKey: Guid(3ebfc29a83ac7ac4a85bd81a805bd5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy7_yellow_02.png using Guid(3ebfc29a83ac7ac4a85bd81a805bd5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220000e8144ff8219a056b7bd59b0a01') in 0.016938 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.020041 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_yellow_03.png
-  artifactKey: Guid(d9a61c884a8b6034ab71315fa46320df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Sprites/Candy/candy7_yellow_03.png using Guid(d9a61c884a8b6034ab71315fa46320df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf381fc1e9088256a40891bfe65cb9c') in 0.019536 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 6.922759 seconds.
-  path: Assets/Game/Scripts
-  artifactKey: Guid(bc0057d7cdde7a54cbafbe71f291f9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Scripts using Guid(bc0057d7cdde7a54cbafbe71f291f9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa01a6e6c06bf6a447c8e70813b0138') in 0.000722 seconds
+  Time since last request: 11.636203 seconds.
+  path: Assets/Game/Scripts/BombSpawner.cs
+  artifactKey: Guid(24f85645452a8264ba08027ecfde7776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scripts/BombSpawner.cs using Guid(24f85645452a8264ba08027ecfde7776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fe05df8b9eb1ae546658e646b6058c') in 0.002896 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 31.786874 seconds.
-  path: Assets/Game/Prefabs/Blue bomb.prefab
-  artifactKey: Guid(fcbff5e26ec4b1d4784403e64a607d4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Prefabs/Blue bomb.prefab using Guid(fcbff5e26ec4b1d4784403e64a607d4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cbd99c95aa9d3400678841ca77127a9e') in 0.135917 seconds
+  Time since last request: 15.981086 seconds.
+  path: Assets/Game/Prefabs/Green bomb.prefab
+  artifactKey: Guid(e5660d105ee3f1a43902d4bdd90618b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Prefabs/Green bomb.prefab using Guid(e5660d105ee3f1a43902d4bdd90618b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb6fe8967e971cb87b1bac9007b0a59') in 0.114964 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game/Sprites/candy8_purple_bomb.png
-  artifactKey: Guid(91cf37e0e6b57f444863db2a9587eafb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/candy8_purple_bomb.png using Guid(91cf37e0e6b57f444863db2a9587eafb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1e1d958628690408ec45b598e66a0311') in 0.067253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_green_01.png
-  artifactKey: Guid(5e8e896a95a888847a6f86805437db2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy5_green_01.png using Guid(5e8e896a95a888847a6f86805437db2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '508175ad1d698d586faef19bc457b086') in 0.032526 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_green_01.png
-  artifactKey: Guid(aaa10e3a9b2110c4e960a8eaca6e4317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy4_green_01.png using Guid(aaa10e3a9b2110c4e960a8eaca6e4317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd1628eb3cf79725646d1524542f59472') in 0.032019 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_orange_02.png
-  artifactKey: Guid(fd5f5e411511e3a4d8cf936dbb033301) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy1_orange_02.png using Guid(fd5f5e411511e3a4d8cf936dbb033301) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b359e624be2d08f88f30d72de2779041') in 0.022666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_orange_01.png
-  artifactKey: Guid(08b6d513152d6f94eaf921ae4d6c28d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy4_orange_01.png using Guid(08b6d513152d6f94eaf921ae4d6c28d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '05e786fe95cc558c957a8da1e60b95f0') in 0.023228 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Game/Sprites/Candy/ball1.png
-  artifactKey: Guid(af1a5a0fe0fa98c40827b6ec06676ac1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/ball1.png using Guid(af1a5a0fe0fa98c40827b6ec06676ac1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9b3283dcc14e3b758797aa1019a3fa1d') in 0.023094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_blue_02.png
-  artifactKey: Guid(a7cb9159d423d8b4684295672df21817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy6_blue_02.png using Guid(a7cb9159d423d8b4684295672df21817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7d39fd2dab53e687104aaae8c5a66850') in 0.022307 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_red_02.png
-  artifactKey: Guid(21356d533bf482b4b94999d3c0d629b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy4_red_02.png using Guid(21356d533bf482b4b94999d3c0d629b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b9f598dc6b82336cd43ffe4b3fd56d83') in 0.023882 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game/Sprites/game bg2.jpg
-  artifactKey: Guid(788a7f0fa0891c7428029d980a388a67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/game bg2.jpg using Guid(788a7f0fa0891c7428029d980a388a67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '629caca96414895ac43effc77d309d65') in 0.028159 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_blue_03.png
-  artifactKey: Guid(980803cbf17440248b73048998cd8d85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy2_blue_03.png using Guid(980803cbf17440248b73048998cd8d85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '152cff111e77ddf0f45f735980b4d56a') in 0.032808 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_orange_03.png
-  artifactKey: Guid(f40aa1d634ab17d40b086ef473d86713) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy4_orange_03.png using Guid(f40aa1d634ab17d40b086ef473d86713) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b403381ef2612d86d64e91d81f1fdf46') in 0.030074 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_red_03.png
-  artifactKey: Guid(0032c7f8566aa454aa2faaec0828acfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy5_red_03.png using Guid(0032c7f8566aa454aa2faaec0828acfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'beda4198c92786a43253f64da0bd5ab2') in 0.032317 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_blue_03.png
-  artifactKey: Guid(9b60c6e74cf34614a945525c7c3e07fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy6_blue_03.png using Guid(9b60c6e74cf34614a945525c7c3e07fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cd35b94df00542ebad57bd6849195adc') in 0.030325 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_orange_01.png
-  artifactKey: Guid(734535c37ce0a8645816171b3fab3e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy7_orange_01.png using Guid(734535c37ce0a8645816171b3fab3e7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e215bda7420f325990404dc3ed6376af') in 0.023819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_blue_01.png
-  artifactKey: Guid(f5b7a61cdd5960546ad8c600a71ad5d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy7_blue_01.png using Guid(f5b7a61cdd5960546ad8c600a71ad5d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ec192915ae72d1b0aea85ba596628b19') in 0.025136 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_yellow_01.png
-  artifactKey: Guid(e791830e0851e7b4bab58d48b8358c02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy7_yellow_01.png using Guid(e791830e0851e7b4bab58d48b8358c02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0ef0e5f2f6e312900b8905dc43a05f33') in 0.021981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_red_03.png
-  artifactKey: Guid(8e7f955eb8848714992fa3bf10bea33a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy7_red_03.png using Guid(8e7f955eb8848714992fa3bf10bea33a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f57da6439eba8ba3f65ebf478e10fe6a') in 0.023666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Game/Sprites/Candy/candy3_purple_03.png
-  artifactKey: Guid(04e6162fde12278438d4ae8fd912b879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy3_purple_03.png using Guid(04e6162fde12278438d4ae8fd912b879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'adcd8d57ce866e1627447678b905bd2b') in 0.026179 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game/Sprites/Candy/candy10_choco.png
-  artifactKey: Guid(68395d3a435c748479679629a5bc7967) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy10_choco.png using Guid(68395d3a435c748479679629a5bc7967) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bdd8f28096e6f085bf266cf67e097846') in 0.025078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_orange_02.png
-  artifactKey: Guid(47860d36e2786a44e97271b703e83533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy7_orange_02.png using Guid(47860d36e2786a44e97271b703e83533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7a55fa29d4901bd38f1cdab4507f031e') in 0.028309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_orange_02.png
-  artifactKey: Guid(192178883ec42eb4195b96a4b6f6b0f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy5_orange_02.png using Guid(192178883ec42eb4195b96a4b6f6b0f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '452d91b685d5cf38e7411cdcf47ffcb3') in 0.025970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_blue_01.png
-  artifactKey: Guid(5eae8a509c30e4a4aabbb769594e55f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy2_blue_01.png using Guid(5eae8a509c30e4a4aabbb769594e55f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '98a2ca812b5065cc47ccb1a70ab81d36') in 0.023399 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_purple_02.png
-  artifactKey: Guid(71c86ca40a148dc409998b8e03403514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy1_purple_02.png using Guid(71c86ca40a148dc409998b8e03403514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f138e88a67483d139db00852c76a863e') in 0.023211 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_green_02.png
-  artifactKey: Guid(6c3ce8fb9a2af7e4c9fecb6a58876a6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy1_green_02.png using Guid(6c3ce8fb9a2af7e4c9fecb6a58876a6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fff231554730033fdbeb15939ff3467f') in 0.028105 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_blue_01.png
-  artifactKey: Guid(141705717e71b09488a2345ae5e3f3d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy4_blue_01.png using Guid(141705717e71b09488a2345ae5e3f3d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd22c8393c4440a8437a50272b2e1f3fa') in 0.028202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_purple_03.png
-  artifactKey: Guid(187fd4b28e4c7bb47ba500bec2e916b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy1_purple_03.png using Guid(187fd4b28e4c7bb47ba500bec2e916b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e5f74e89f037bcc71cd644f2bb790722') in 0.024925 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_purple_01.png
-  artifactKey: Guid(f51e517586c8a0c4d8742b00ec1064be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy7_purple_01.png using Guid(f51e517586c8a0c4d8742b00ec1064be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '49dfe0404fa8dcfb90e021e667eeac65') in 0.028210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_yellow_02.png
-  artifactKey: Guid(75bbe2c473a3ca9438f2d7f1091dfb98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy1_yellow_02.png using Guid(75bbe2c473a3ca9438f2d7f1091dfb98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '27d294025119e90addee00e2f0147eac') in 0.027626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_red_02.png
-  artifactKey: Guid(13c1fa45175e6ed428bda7d659deb467) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy5_red_02.png using Guid(13c1fa45175e6ed428bda7d659deb467) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8d7bbf59c393b5c5d0996255e2fa2db9') in 0.025372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_yellow_03.png
-  artifactKey: Guid(3b35e448306fba54c9b0aacd301c18e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy2_yellow_03.png using Guid(3b35e448306fba54c9b0aacd301c18e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '07e6443d36a7cf6c561402e1cc201dc1') in 0.025149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_red_01.png
-  artifactKey: Guid(a3c8d7dd03e97644ba9df096b3a1a108) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy2_red_01.png using Guid(a3c8d7dd03e97644ba9df096b3a1a108) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '87d6a3e3f6fd5ce29041bda803ca609a') in 0.023540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_yellow_02.png
-  artifactKey: Guid(818654717b6407a44a20eb89af2529be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy2_yellow_02.png using Guid(818654717b6407a44a20eb89af2529be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7301a9e3310cfca4bce5a248280e8518') in 0.024383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game/Sprites/Candy/wood_02.png
-  artifactKey: Guid(9e3c95f8e845b2149abbd973371f6900) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/wood_02.png using Guid(9e3c95f8e845b2149abbd973371f6900) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5d0d8a314153929a37f7fe404088806c') in 0.030853 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/ice_01.png
-  artifactKey: Guid(3bc9c592be5d10f41b2379995e71f7ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/ice_01.png using Guid(3bc9c592be5d10f41b2379995e71f7ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '443c510075ffb34830373f3cc1a87abe') in 0.023419 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game/Sprites/Candy/zephyr.png
-  artifactKey: Guid(b049d7bd4fe2cb643a6833fca9a0a402) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/zephyr.png using Guid(b049d7bd4fe2cb643a6833fca9a0a402) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1da14a787132f28a47a3838856f9a14d') in 0.026228 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/candy3_purple_01.png
-  artifactKey: Guid(c243ea0c1f20ed4449ccceab2e19a90a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy3_purple_01.png using Guid(c243ea0c1f20ed4449ccceab2e19a90a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1a86e546bccbbc4db211599a79745e5d') in 0.025408 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Game/Prefabs/Square.prefab
-  artifactKey: Guid(44bccff49d6e9e94d91dc4cf77b5101e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Prefabs/Square.prefab using Guid(44bccff49d6e9e94d91dc4cf77b5101e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9e5ceb05a2f50527fb1914630bd4dd75') in 0.015963 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_yellow_01.png
-  artifactKey: Guid(8d9d26032c946d949a741e51ed74d475) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy1_yellow_01.png using Guid(8d9d26032c946d949a741e51ed74d475) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '78fae3a20f023a40b931c62fa79a7d9b') in 0.028238 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_yellow_02.png
-  artifactKey: Guid(870a2edfc7247e949afa9de54fc08012) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy6_yellow_02.png using Guid(870a2edfc7247e949afa9de54fc08012) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '551509e1d55a610ac1d8092b10b0246f') in 0.024867 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_red_01.png
-  artifactKey: Guid(672b4c073d24a734f877c8a7f9271682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy4_red_01.png using Guid(672b4c073d24a734f877c8a7f9271682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'de2d81913a0d9ebabad22b3473ebfe2c') in 0.033042 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game/Sprites/candy8_green_bomb.png
-  artifactKey: Guid(950c66cedc5b9ab41a5adb49bb47074b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/candy8_green_bomb.png using Guid(950c66cedc5b9ab41a5adb49bb47074b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '577912cf3005efd1fe0ccd3dfef3b616') in 0.029122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_yellow_03.png
-  artifactKey: Guid(d9a61c884a8b6034ab71315fa46320df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy7_yellow_03.png using Guid(d9a61c884a8b6034ab71315fa46320df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a39c22ce08c24ad7b89ac4214d401b4f') in 0.024438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_purple_03.png
-  artifactKey: Guid(e80620218c821cf41a1f2b1112a85031) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy6_purple_03.png using Guid(e80620218c821cf41a1f2b1112a85031) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '132ee96529d4efe1ac8d960cd9302c20') in 0.025699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_yellow_01.png
-  artifactKey: Guid(05c4bf0d026c78f41b9f4cc0c483cbd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy2_yellow_01.png using Guid(05c4bf0d026c78f41b9f4cc0c483cbd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0fba38343ba23a5e0a9dcddba447e81d') in 0.024538 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_red_03.png
-  artifactKey: Guid(92b5c1adf70476c418c4421ce0caba30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy4_red_03.png using Guid(92b5c1adf70476c418c4421ce0caba30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '52692d30d2af4d5136d4a415af4b82e2') in 0.025967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_purple_02.png
-  artifactKey: Guid(ab957702dca893144a8e12cf9022536c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy6_purple_02.png using Guid(ab957702dca893144a8e12cf9022536c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f9aa32abfb57c1d12c3c9adc08d25009') in 0.026599 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game/Sprites/candy8_blue_bomb.png
-  artifactKey: Guid(19a072425c5f2a642bbb3ebed620c1f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/candy8_blue_bomb.png using Guid(19a072425c5f2a642bbb3ebed620c1f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fd8d3180ac34e74394fccd92da7df9f6') in 0.026465 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_blue_02.png
-  artifactKey: Guid(388bdaf538823dc469b1e44236fd76db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy2_blue_02.png using Guid(388bdaf538823dc469b1e44236fd76db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f8beb7d92fde70b8aadb04c8ffd2afd3') in 0.025795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_blue_03.png
-  artifactKey: Guid(ac91d39b493329948b022e8ab3b71b70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy5_blue_03.png using Guid(ac91d39b493329948b022e8ab3b71b70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6183f59efff207e1a436d67b514f799a') in 0.023390 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_orange_02.png
-  artifactKey: Guid(5de16284931ccc645bcff69a7300c52f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy2_orange_02.png using Guid(5de16284931ccc645bcff69a7300c52f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '79bbc7b97cb8f55ef6100add287cadf9') in 0.023281 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Game/Prefabs/Purple bomb.prefab
-  artifactKey: Guid(7a2a549946617be40bd5f52eb81a8b51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Prefabs/Purple bomb.prefab using Guid(7a2a549946617be40bd5f52eb81a8b51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '099aaefe04089a48d451035ef689c5ef') in 0.015070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_red_03.png
-  artifactKey: Guid(8edf9517cb6e90848af23d60d5b9eec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy2_red_03.png using Guid(8edf9517cb6e90848af23d60d5b9eec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1099fcf5da027d7632f6545a1f0007d5') in 0.025832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Game/Sprites/Candy/candy5_yellow_01.png
-  artifactKey: Guid(76925affccd7b644c8107ba592f580e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy5_yellow_01.png using Guid(76925affccd7b644c8107ba592f580e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1c3fdad181013a74c59c2f55695f3268') in 0.028074 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_green_03.png
-  artifactKey: Guid(d5063fc5dbb24894482584e05df043ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy7_green_03.png using Guid(d5063fc5dbb24894482584e05df043ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cdd1d42ae195fe97084d4f4e0717af89') in 0.022814 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game/Sprites/Candy/wood_03.png
-  artifactKey: Guid(aac1695bfef71b5469bd5495b3406dfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/wood_03.png using Guid(aac1695bfef71b5469bd5495b3406dfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '82ea776a7cdd5846ee19eb0fbac9ecae') in 0.025367 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_red_01.png
-  artifactKey: Guid(d559c08fd21b18d4ea5a51ff9d072a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy6_red_01.png using Guid(d559c08fd21b18d4ea5a51ff9d072a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3bb3a3b1b9f3d7508c98f7a8b29924c2') in 0.023473 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Prefabs/Orange bomb.prefab
-  artifactKey: Guid(6edb657b83bc0a54a9e5a05ce9e3bfb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Prefabs/Orange bomb.prefab using Guid(6edb657b83bc0a54a9e5a05ce9e3bfb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6a5519c6e136a4224c000711a9beb3df') in 0.015841 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy8_yellow_bomb.png
-  artifactKey: Guid(02c450778a4280946b1dc9562dfb7dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy8_yellow_bomb.png using Guid(02c450778a4280946b1dc9562dfb7dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4ef949f89613afc5a2fa0af2afa72231') in 0.026086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Game/Sprites/Candy/ice_02.png
-  artifactKey: Guid(e5fd85e41bdae63479f1b7ad7a32b0ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/ice_02.png using Guid(e5fd85e41bdae63479f1b7ad7a32b0ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5d6de18cdfa1c0f92d1954901df93b9b') in 0.027175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_blue_02.png
-  artifactKey: Guid(f0f9d41c84cd23f4aacb29de3ba49c6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy1_blue_02.png using Guid(f0f9d41c84cd23f4aacb29de3ba49c6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '40745efec6490c2f16955a270100a491') in 0.024380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy6_purple_01.png
-  artifactKey: Guid(f4af0fa8dc6ee4441ac3bc42d3b955c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy6_purple_01.png using Guid(f4af0fa8dc6ee4441ac3bc42d3b955c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ed262eba0fc212de73266c913b74ad31') in 0.022637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Game/Sprites/Candy/candy1_purple_01.png
-  artifactKey: Guid(0c650e9a914ac1d4b814ff43b10a014a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy1_purple_01.png using Guid(0c650e9a914ac1d4b814ff43b10a014a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'eac7d21e732c79cc6743c5f796f85341') in 0.027099 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_yellow_03.png
-  artifactKey: Guid(172d83eefefb66d4bb7244d2b5434208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy4_yellow_03.png using Guid(172d83eefefb66d4bb7244d2b5434208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0644789161def9f9ce7b464155a64099') in 0.023619 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_green_03.png
-  artifactKey: Guid(bfc797c770499d0449150825d9662538) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy2_green_03.png using Guid(bfc797c770499d0449150825d9662538) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '04bc67b7eda9f22cc930324f0df4b491') in 0.024151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Game/Sprites/Candy/candy7_blue_03.png
-  artifactKey: Guid(b4069ab2381a88245adf83cde0a6e666) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy7_blue_03.png using Guid(b4069ab2381a88245adf83cde0a6e666) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7dce60b089edd635c6e6e56595ea1183') in 0.023874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Game/Sprites/Candy/candy2_orange_03.png
-  artifactKey: Guid(5393a4c64127b4c4598a888a5b73636a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy2_orange_03.png using Guid(5393a4c64127b4c4598a888a5b73636a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '241bdacc1769adf713654a0b3d26883c') in 0.026732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Game/Sprites/Candy/candy4_blue_02.png
-  artifactKey: Guid(ac6e6ada3ce8c574d825c9cf8e8efeca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Game/Sprites/Candy/candy4_blue_02.png using Guid(ac6e6ada3ce8c574d825c9cf8e8efeca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2960074d6a596b96b15414a9d7b9fdb3') in 0.026177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.409 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.646 seconds
+Domain Reload Profiling: 1056ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (208ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (647ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.08 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1578 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (30.5 KB). Loaded Objects now: 2070.
+Memory consumption went from 85.6 MB to 85.5 MB.
+Total: 3.722800 ms (FindLiveObjects: 0.156200 ms CreateObjectMapping: 0.098800 ms MarkObjects: 3.343000 ms  DeleteObjects: 0.123000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 108.038749 seconds.
+  path: Assets/Game/Scripts/BombSpawner.cs
+  artifactKey: Guid(24f85645452a8264ba08027ecfde7776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scripts/BombSpawner.cs using Guid(24f85645452a8264ba08027ecfde7776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045720d47284065d773d6b9db702aac0') in 0.002699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
