@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class BombSpawner : MonoBehaviour
 {
+#if UNITY_EDITOR //code after this line will lose after compilation.
     [SerializeField] private GameObject[] prefabs;
     [SerializeField] private GameObject parent;
     [SerializeField] private float[,] startPoint = {{-3.2f},{-3.15f}}; // where start cloning.
@@ -12,7 +13,9 @@ public class BombSpawner : MonoBehaviour
 [ContextMenu("Spawn Bombs")]
     void Start()
     {
+        if (!Application.isPlaying){
         FillIn(); // function which fill in chart.
+        }
     }
 
     void FillIn(){
@@ -20,14 +23,6 @@ public class BombSpawner : MonoBehaviour
             for(float j = startPoint[1,0]; j <= endPoint[1,0]; j += difference){
                 Instantiate(prefabs[UnityEngine.Random.Range(0, prefabs.Count())], new Vector3(i,j,0), Quaternion.identity, parent.transform);      
             }
-        }
-    }
-
-#if UNITY_EDITOR //code after this line will lose after compilation.
-
-    void Awake(){
-        if (Application.isPlaying){
-        Destroyer();
         }
     }
 
