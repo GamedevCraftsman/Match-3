@@ -913,7 +913,10 @@ MonoBehaviour:
   - {fileID: 6032726493896117404, guid: ba9ec30e399eb9a4094eac205200f814, type: 3}
   - {fileID: 5090525489728509930, guid: 6edb657b83bc0a54a9e5a05ce9e3bfb0, type: 3}
   - {fileID: 6881980737289758881, guid: 7a2a549946617be40bd5f52eb81a8b51, type: 3}
+<<<<<<< Updated upstream
   parent: {fileID: 1966745492}
+=======
+>>>>>>> Stashed changes
 --- !u!4 &470917887
 Transform:
   m_ObjectHideFlags: 0
@@ -1550,6 +1553,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endDiapazone: 0.3
+<<<<<<< Updated upstream
+=======
+  bombIcon: []
+  bomb: []
+>>>>>>> Stashed changes
 --- !u!4 &951375960
 Transform:
   m_ObjectHideFlags: 0
@@ -2606,7 +2614,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 367074525734436854, guid: 44bccff49d6e9e94d91dc4cf77b5101e, type: 3}
       propertyPath: m_TagString
+<<<<<<< Updated upstream
       value: Free
+=======
+      value: Lock
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4317641894357467561, guid: 44bccff49d6e9e94d91dc4cf77b5101e, type: 3}
       propertyPath: m_SortingOrder
