@@ -7,6 +7,7 @@ TagManager:
   - Bomb
   - Free
   - Lock
+  - cellContainer
   layers:
   - Default
   - TransparentFX
