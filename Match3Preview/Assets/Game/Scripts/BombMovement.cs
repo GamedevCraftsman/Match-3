@@ -24,11 +24,13 @@ public class BombMovement : MonoBehaviour
             if(bomb.transform.position.x == cells[i].transform.position.x && bomb.transform.position.y <= cells[i].transform.position.y + 0.015f && bomb.transform.position.y >= cells[i].transform.position.y - 0.015f){
                 //Debug.Log(num + ": " + cells[i].transform.position.x + ";" + cells[i].transform.position.y);
                 bomb.transform.position = cells[i].transform.position;
-                speed = 0;
+                if(cells[i].transform.position.x == bomb.transform.position.x && cells[i].transform.position.y == bomb.transform.position.y + 1.25f && cells[i].isFree == false){
+                    Debug.Log("Stop");
+                }               
                 //num++;
                 break;
             }
         }
-        bomb.transform.position = bomb.transform.position + new Vector3(0, -speed * Time.deltaTime, 0);
+        bomb.transform.position = bomb.transform.position + new Vector3(0, -speed * Time.deltaTime, 0);     
     }
 }
