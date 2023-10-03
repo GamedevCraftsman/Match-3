@@ -13,8 +13,8 @@ public class CellContainer : MonoBehaviour
     float[,] endPoint = {{3.05f},{-3.15f}}; // where end cloning.  
     float difference = 1.25f; // distance between spawnpoints.
     int counter = 0;
-    void Start()
-    {
+
+    void Awake(){
         CellSpawn(); // function which fill in chart.     
     }
 
