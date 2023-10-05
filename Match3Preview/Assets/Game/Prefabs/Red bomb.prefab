@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4222371381822537463}
   - component: {fileID: 326439067372282490}
   - component: {fileID: 3974843269086111427}
+  - component: {fileID: 2180603654792920512}
   m_Layer: 0
   m_Name: Red bomb
   m_TagString: Bomb
@@ -130,3 +131,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 1.28}
   m_EdgeRadius: 0
+--- !u!114 &2180603654792920512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6032726493896117404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e752de9ac75514a89c2ee78a0eac27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.99
+  cells: []

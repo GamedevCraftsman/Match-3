@@ -9,7 +9,8 @@ using UnityEngine.PlayerLoop;
 public class BombMovement : MonoBehaviour
 {
     [SerializeField] float speed;
-    
+
+    int iSave;
     float saveSpeed;
     public CellScript[] cells;
     GameObject cellContainer;
@@ -21,17 +22,20 @@ public class BombMovement : MonoBehaviour
         saveSpeed = speed;
     }
 
-    void Update(){       
+    void FixedUpdate(){       
         for(int i = 0; i < cells.Count(); i++){
-            if(bomb.transform.position.x == cells[i].transform.position.x && bomb.transform.position.y <= cells[i].transform.position.y + 0.015f && bomb.transform.position.y >= cells[i].transform.position.y - 0.015f){
-                if(cells[i+1].isFree == false){ 
-                    cells[i].isFree = false;               
+            if(bomb.transform.position.x == cells[i].transform.position.x && bomb.transform.position.y <= cells[i].transform.position.y + 0.015f && bomb.transform.position.y >= cells[i].transform.position.y - 1.2f){
+                cells[i].isFree = false;
+                if (cells[i+1].isFree == false)
+                {                                   
                     speed = 0;
                 }
-                else if (bomb.transform.position.y >= cells[i+1].transform.position.y + 0.55f && bomb.transform.position.y <= cells[i].transform.position.y - 0.5f && cells[i+1].isFree == true){
-                    cells[i].isFree = true;
+                else if (cells[i + 1].isFree == true)
+                {
                     speed = saveSpeed;
-                };
+                    iSave = i;
+                }
+                
 
                 switch(i){
                     case 5:
@@ -62,6 +66,12 @@ public class BombMovement : MonoBehaviour
                 break;
             }
         }
+        if (bomb.transform.position.y <= cells[iSave].transform.position.y - 1.2f)
+        {
+            cells[iSave].isFree = true;
+            //cells[i].isFree = true;
+            //speed = saveSpeed;
+        };
         bomb.transform.position = bomb.transform.position + new Vector3(0, -speed * Time.deltaTime, 0);
     }
 }

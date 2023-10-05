@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 668014795894431046}
   - component: {fileID: 4000812102652818073}
   - component: {fileID: 7005669325566440428}
+  - component: {fileID: 407853612497812124}
   m_Layer: 0
   m_Name: Purple bomb
   m_TagString: Bomb
@@ -130,3 +131,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 1.28}
   m_EdgeRadius: 0
+--- !u!114 &407853612497812124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6881980737289758881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e752de9ac75514a89c2ee78a0eac27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.99
+  cells: []

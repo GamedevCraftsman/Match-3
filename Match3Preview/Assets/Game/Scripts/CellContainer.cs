@@ -20,14 +20,14 @@ public class CellContainer : MonoBehaviour
 
     void Update(){
          bombs = GameObject.FindGameObjectsWithTag("Bomb");
-        for (int j = 0; j < bombs.Count(); j++){
+        /*for (int j = 0; j < bombs.Count(); j++){
             for(int i = 0; i < cells.Count(); i++){                 
                 if (bombs[j].transform.position == cells[i].transform.position){
                     cells[i].isFree = false;
                 }
             }
             
-        }
+        }*/
     }
     
 
