@@ -1,4 +1,3 @@
-using System.Linq;
 using UnityEngine;
 
 public class CellContainer : MonoBehaviour
@@ -15,30 +14,23 @@ public class CellContainer : MonoBehaviour
     int counter = 0;
 
     void Awake(){
-        CellSpawn(); // function which fill in chart.     
+        CellFillIn(); // function which fill in chart.
+        bombs = GameObject.FindGameObjectsWithTag("Bomb"); 
     }
 
-    void Update(){
-         bombs = GameObject.FindGameObjectsWithTag("Bomb");
-        /*for (int j = 0; j < bombs.Count(); j++){
-            for(int i = 0; i < cells.Count(); i++){                 
-                if (bombs[j].transform.position == cells[i].transform.position){
-                    cells[i].isFree = false;
-                }
-            }
-            
-        }*/
-    }
-    
-
-    void CellSpawn(){
+    void CellFillIn(){
         cells = new CellScript[36];
         for(float i = startPoint[0,0]; i <= endPoint[0,0]; i += difference){    
             for(float j = startPoint[1,0]; j >= endPoint[1,0]; j -= difference){
-                GameObject cell = Instantiate(prefab, new Vector3(i,j,0), Quaternion.identity, parent.transform);
-                cells[counter] = cell.GetComponent<CellScript>();      
-                counter++;
+                CellSpawn(i, j);
             }  
         }
+    }
+
+    void CellSpawn(float i, float j)
+    {
+        GameObject cell = Instantiate(prefab, new Vector3(i, j, 0), Quaternion.identity, parent.transform);
+        cells[counter] = cell.GetComponent<CellScript>();
+        counter++;
     }
 }  
