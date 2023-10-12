@@ -36,6 +36,7 @@ public class BombsGenerator : MonoBehaviour
         if (cells[i].isFree == true)
         {
             Instantiate(prefabs[UnityEngine.Random.Range(0, prefabs.Count())], cells[i].transform.position, Quaternion.identity, parent.transform);
+            cells[i].isFree = false;
         }
     }
 }
