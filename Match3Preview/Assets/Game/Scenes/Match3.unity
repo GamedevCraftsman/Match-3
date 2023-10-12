@@ -494,7 +494,7 @@ MonoBehaviour:
   - {fileID: 6881980737289758881, guid: 7a2a549946617be40bd5f52eb81a8b51, type: 3}
   - {fileID: 6032726493896117404, guid: ba9ec30e399eb9a4094eac205200f814, type: 3}
   parent: {fileID: 1185154862}
-  secondsForWait: 0.1
+  secondsForWait: 0.5
   cells: []
 --- !u!1 &1997332282
 GameObject:
