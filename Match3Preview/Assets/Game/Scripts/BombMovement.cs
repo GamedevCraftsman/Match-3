@@ -4,8 +4,8 @@ using UnityEngine;
 public class BombMovement : MonoBehaviour
 {
     [SerializeField] float speed;
-    [SerializeField] float yPointFrom;
-    [SerializeField] float yPointTo;
+    [SerializeField] public float yPointFrom;
+    [SerializeField] public float yPointTo;
 
     int iSave;
     float saveSpeed;
