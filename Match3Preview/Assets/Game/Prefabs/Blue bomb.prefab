@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3083486410228449630}
   - component: {fileID: 232411544201736093}
   - component: {fileID: 9185809358508093793}
-  - component: {fileID: 1067959711821338002}
   - component: {fileID: 4775270389225513735}
+  - component: {fileID: 1067959711821338002}
   m_Layer: 3
   m_Name: Blue bomb
   m_TagString: Bomb
@@ -132,21 +132,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 1.28}
   m_EdgeRadius: 0
---- !u!114 &1067959711821338002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3491562966221115754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e101939b472bae64083f92e2780e8074, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  yPointFrom: 0.015
-  yPointTo: 1.2
-  cells: []
 --- !u!114 &4775270389225513735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,3 +148,16 @@ MonoBehaviour:
   yPointFrom: 0.015
   yPointTo: 1.2
   cells: []
+--- !u!114 &1067959711821338002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3491562966221115754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e101939b472bae64083f92e2780e8074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0

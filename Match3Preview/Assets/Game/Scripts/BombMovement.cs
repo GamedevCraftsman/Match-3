@@ -34,6 +34,8 @@ public class BombMovement : MonoBehaviour
         }
         else if (cells[i + 1].isFree == true)
         {
+            cells[i + 1].bomb = gameObject;
+            cells[i + 1].bombColor = gameObject.GetComponent<BombsDeleted>().color;
             speed = saveSpeed;
             iSave = i;
         }
