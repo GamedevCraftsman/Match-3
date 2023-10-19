@@ -1,13 +1,12 @@
 using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
-
+using System.Collections.Generic;
 public class BombsDeleted : MonoBehaviour, IPointerClickHandler
 {
-    public enum bombsColor { Blue, Red, Green, Orange, Purple };
+    public enum bombsColor { Blue, Red, Green, Orange, Purple, Nothing };
     public bombsColor color;
 
-    GameObject[] bombsForDeleting;
     float yPointFrom;
     float yPointTo;
     CellScript[] cells;
@@ -23,22 +22,17 @@ public class BombsDeleted : MonoBehaviour, IPointerClickHandler
     {
         for (int i = 0; i < cells.Count(); i++)
         {
-            if (cells[i].bombColor == color)
-            {
-                bombsForDeleting.Append(cells[i].bomb);
-            }
+            //if (cells[i].bomb.GetComponent<BombsDeleted>().color)
+            //cells[i].isFree = true;
+            DestroyBombs(cells[i].bomb);
         }
-        //DestroyBombs(bombsForDeleting);
-        for(int i = 0; i < bombsForDeleting.Length; i++)
-        {
-            Debug.Log(bombsForDeleting[i]);
-        }
+        
     }
 
 
-    void DestroyBombs(GameObject[] bombs)
+    void DestroyBombs(GameObject bombs)
     {
-        for (int j = 0; j < bombs.Length; j++) {
+        //for (int j = 0; j < bombs.Length; j++) {
             for (int i = 0; i < cells.Length; i++)
             {
                 if (gameObject.transform.position.x == cells[i].transform.position.x && gameObject.transform.position.y <= cells[i].transform.position.y + yPointFrom && gameObject.transform.position.y >= cells[i].transform.position.y - yPointTo)
@@ -46,8 +40,8 @@ public class BombsDeleted : MonoBehaviour, IPointerClickHandler
                     cells[i].isFree = true;
                 }
             }
-            Destroy(bombs[j]);
-        }
+            Destroy(bombs);
+        //}
     }
 }
 

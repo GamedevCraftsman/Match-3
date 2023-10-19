@@ -11,7 +11,7 @@ public class BombSpawner : MonoBehaviour
     [SerializeField] float[,] startPoint = {{-3.2f},{-3.15f}}; // where start cloning.
     [SerializeField] float[,] endPoint = {{3.05f},{3.1f}}; // where end cloning.
 
-   float difference = 1.25f; // distance between spawnpoints.
+    float difference = 1.25f; // distance between spawnpoints.
     [ContextMenu("Spawn Bombs")]
     void Start()
     {

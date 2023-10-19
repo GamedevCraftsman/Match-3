@@ -1,5 +1,6 @@
 using System.Linq;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class BombMovement : MonoBehaviour
 {
@@ -35,7 +36,7 @@ public class BombMovement : MonoBehaviour
         else if (cells[i + 1].isFree == true)
         {
             cells[i + 1].bomb = gameObject;
-            cells[i + 1].bombColor = gameObject.GetComponent<BombsDeleted>().color;
+            //cells[i + 1].bombColor = gameObject.GetComponent<BombsDeleted>().color;
             speed = saveSpeed;
             iSave = i;
         }

@@ -13,7 +13,7 @@ public class BombsGenerator : MonoBehaviour
     void Start()
     {
         cellContainer = GameObject.FindGameObjectWithTag("cellContainer");
-        cells = cellContainer.GetComponent<CellContainer>().cells;    
+        cells = cellContainer.GetComponent<CellContainer>().cells;
     }
 
     void FixedUpdate()
