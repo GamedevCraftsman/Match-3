@@ -22,11 +22,27 @@ public class BombsDeleted : MonoBehaviour, IPointerClickHandler
     {
         for (int i = 0; i < cells.Count(); i++)
         {
-            //if (cells[i].bomb.GetComponent<BombsDeleted>().color)
-            //cells[i].isFree = true;
-            DestroyBombs(cells[i].bomb);
-        }
-        
+            if (cells[i].bomb.GetComponent<BombsDeleted>().color == color && gameObject.transform.position.x == cells[i].transform.position.x + 1.25f)
+            {
+                cells[i].isFree = true;
+                Destroy(cells[i].bomb);
+            }
+            if (cells[i].bomb.GetComponent<BombsDeleted>().color == color && gameObject.transform.position.x == cells[i].transform.position.x - 1.25f)
+            {
+                cells[i].isFree = true;
+                Destroy(cells[i].bomb);
+            }
+            if (cells[i].bomb.GetComponent<BombsDeleted>().color == color && gameObject.transform.position.y == cells[i].transform.position.y + 1.25f)
+            {
+                cells[i].isFree = true;
+                Destroy(cells[i].bomb);
+            }
+            if (cells[i].bomb.GetComponent<BombsDeleted>().color == color && gameObject.transform.position.y == cells[i].transform.position.y - 1.25f)
+            {
+                cells[i].isFree = true;
+                Destroy(cells[i].bomb);
+            }
+        }       
     }
 
 

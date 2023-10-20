@@ -35,8 +35,6 @@ public class BombMovement : MonoBehaviour
         }
         else if (cells[i + 1].isFree == true)
         {
-            cells[i + 1].bomb = gameObject;
-            //cells[i + 1].bombColor = gameObject.GetComponent<BombsDeleted>().color;
             speed = saveSpeed;
             iSave = i;
         }
@@ -87,6 +85,7 @@ public class BombMovement : MonoBehaviour
         {
             if (bomb.transform.position.x == cells[i].transform.position.x && bomb.transform.position.y <= cells[i].transform.position.y + yPointFrom && bomb.transform.position.y >= cells[i].transform.position.y - yPointTo)
             {
+                cells[i].bomb = gameObject;
                 cells[i].isFree = false;
                 if (i + 1 == cells.Count())
                 {
