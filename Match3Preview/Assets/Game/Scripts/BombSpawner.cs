@@ -15,7 +15,8 @@ public class BombSpawner : MonoBehaviour
     [ContextMenu("Spawn Bombs")]
     void Start()
     {
-        if (!Application.isPlaying){
+        if (!Application.isPlaying)
+        {
         SpawnChart();
         }
     }

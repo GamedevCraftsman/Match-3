@@ -13,15 +13,19 @@ public class CellContainer : MonoBehaviour
     float difference = 1.25f; // distance between spawnpoints.
     int counter = 0;
 
-    void Awake(){
+    void Awake()
+    {
         CellFillIn(); // function which fill in chart.
         bombs = GameObject.FindGameObjectsWithTag("Bomb"); 
     }
 
-    void CellFillIn(){
+    void CellFillIn()
+    {
         cells = new CellScript[36];
-        for(float i = startPoint[0,0]; i <= endPoint[0,0]; i += difference){    
-            for(float j = startPoint[1,0]; j >= endPoint[1,0]; j -= difference){
+        for(float i = startPoint[0,0]; i <= endPoint[0,0]; i += difference)
+        {    
+            for(float j = startPoint[1,0]; j >= endPoint[1,0]; j -= difference)
+            {
                 CellSpawn(i, j);
             }  
         }
@@ -31,6 +35,7 @@ public class CellContainer : MonoBehaviour
     {
         GameObject cell = Instantiate(prefab, new Vector3(i, j, 0), Quaternion.identity, parent.transform);
         cells[counter] = cell.GetComponent<CellScript>();
+        cells[counter].cellNumber = counter;
         counter++;
     }
 }  

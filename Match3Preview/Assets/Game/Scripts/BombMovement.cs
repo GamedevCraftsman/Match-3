@@ -1,6 +1,5 @@
 using System.Linq;
 using UnityEngine;
-using System.Collections.Generic;
 
 public class BombMovement : MonoBehaviour
 {
@@ -8,9 +7,10 @@ public class BombMovement : MonoBehaviour
     [SerializeField] public float yPointFrom;
     [SerializeField] public float yPointTo;
 
+    public CellScript[] cells;
+
     int iSave;
     float saveSpeed;
-    public CellScript[] cells;
     GameObject cellContainer;
     Transform bomb;
     void Start()
@@ -76,12 +76,12 @@ public class BombMovement : MonoBehaviour
         if (bomb.transform.position.y <= cells[iSave].transform.position.y - yPointTo)
         {
             cells[iSave].isFree = true;
-        };
+        }
     }
 
     void SearchForTheCorrespondingCell()
     {
-        for (int i = 0; i < cells.Count(); i++)
+        for (int i = 0; i < cells.Length; i++)
         {
             if (bomb.transform.position.x == cells[i].transform.position.x && bomb.transform.position.y <= cells[i].transform.position.y + yPointFrom && bomb.transform.position.y >= cells[i].transform.position.y - yPointTo)
             {

@@ -9,6 +9,7 @@ public class BombsGenerator : MonoBehaviour
     [SerializeField] float secondsForWait;
 
     public CellScript[] cells;
+
     GameObject cellContainer;
     void Start()
     {
