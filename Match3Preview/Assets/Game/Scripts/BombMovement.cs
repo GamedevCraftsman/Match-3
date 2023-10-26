@@ -9,6 +9,7 @@ public class BombMovement : MonoBehaviour
 
     public CellScript[] cells;
 
+    int stopSpeed = 0;
     int iSave;
     float saveSpeed;
     GameObject cellContainer;
@@ -31,7 +32,7 @@ public class BombMovement : MonoBehaviour
     {
         if (cells[i + 1].isFree == false)
         {
-            speed = 0;
+            speed = stopSpeed;
         }
         else if (cells[i + 1].isFree == true)
         {
@@ -45,27 +46,27 @@ public class BombMovement : MonoBehaviour
         switch (i)
         {
             case 5:
-                speed = 0;
+                speed = stopSpeed;
                 cells[i].isFree = false;
                 break;
             case 11:
-                speed = 0;
+                speed = stopSpeed;
                 cells[i].isFree = false;
                 break;
             case 17:
-                speed = 0;
+                speed = stopSpeed;
                 cells[i].isFree = false;
                 break;
             case 23:
-                speed = 0;
+                speed = stopSpeed;
                 cells[i].isFree = false;
                 break;
             case 29:
-                speed = 0;
+                speed = stopSpeed;
                 cells[i].isFree = false;
                 break;
             case 35:
-                speed = 0;
+                speed = stopSpeed;
                 cells[i].isFree = false;
                 break;
         }
@@ -89,7 +90,7 @@ public class BombMovement : MonoBehaviour
                 cells[i].isFree = false;
                 if (i + 1 == cells.Count())
                 {
-                    speed = 0;
+                    speed = stopSpeed;
                     break;
                 }
                 IsFreeChecking(i);

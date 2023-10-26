@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Linq;
 using UnityEngine;
-
 public class BombsGenerator : MonoBehaviour
 {
     [SerializeField] GameObject[] prefabs;
@@ -10,6 +9,9 @@ public class BombsGenerator : MonoBehaviour
 
     public CellScript[] cells;
 
+    const int cellsNumber = 30;
+    const int rowsNumber = 6;
+    const int fromNumberOfPrefabs = 0;
     GameObject cellContainer;
     void Start()
     {
@@ -24,19 +26,18 @@ public class BombsGenerator : MonoBehaviour
 
     IEnumerator SpawnBombs()
     {
-        for (int i = 0; i <= 30; i += 6)
+        for (int i = 0; i <= cellsNumber; i += rowsNumber)
         {
             yield return new WaitForSeconds(secondsForWait);
             BombSpawner(i);
         }
-        
     }
 
     void BombSpawner(int i)
     {
         if (cells[i].isFree == true)
         {
-            Instantiate(prefabs[UnityEngine.Random.Range(0, prefabs.Count())], cells[i].transform.position, Quaternion.identity, parent.transform);
+            Instantiate(prefabs[UnityEngine.Random.Range(fromNumberOfPrefabs, prefabs.Count())], cells[i].transform.position, Quaternion.identity, parent.transform);
             cells[i].isFree = false;
         }
     }

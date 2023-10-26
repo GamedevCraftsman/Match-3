@@ -4,30 +4,31 @@ public class CellContainer : MonoBehaviour
 {
     [SerializeField] GameObject prefab;
     [SerializeField] GameObject parent;
-    
+
     public CellScript[] cells;
 
+    const int arraySize = 36;
     GameObject[] bombs;
-    float[,] startPoint = {{-3.2f},{3.15f}}; // where start cloning.
-    float[,] endPoint = {{3.05f},{-3.15f}}; // where end cloning.  
+    float[,] startPoint = { { -3.2f }, { 3.15f } }; // where start cloning.
+    float[,] endPoint = { { 3.05f }, { -3.15f } }; // where end cloning.  
     float difference = 1.25f; // distance between spawnpoints.
     int counter = 0;
 
     void Awake()
     {
         CellFillIn(); // function which fill in chart.
-        bombs = GameObject.FindGameObjectsWithTag("Bomb"); 
+        bombs = GameObject.FindGameObjectsWithTag("Bomb");
     }
 
     void CellFillIn()
     {
-        cells = new CellScript[36];
-        for(float i = startPoint[0,0]; i <= endPoint[0,0]; i += difference)
-        {    
-            for(float j = startPoint[1,0]; j >= endPoint[1,0]; j -= difference)
+        cells = new CellScript[arraySize];
+        for (float i = startPoint[0, 0]; i <= endPoint[0, 0]; i += difference)
+        {
+            for (float j = startPoint[1, 0]; j >= endPoint[1, 0]; j -= difference)
             {
                 CellSpawn(i, j);
-            }  
+            }
         }
     }
 
@@ -38,4 +39,4 @@ public class CellContainer : MonoBehaviour
         cells[counter].cellNumber = counter;
         counter++;
     }
-}  
+}

@@ -8,8 +8,8 @@ public class BombSpawner : MonoBehaviour
     [SerializeField] GameObject[] bombsPrefabs;
     [SerializeField] GameObject iconsParent;
     [SerializeField] GameObject bombsParent;
-    [SerializeField] float[,] startPoint = {{-3.2f},{-3.15f}}; // where start cloning.
-    [SerializeField] float[,] endPoint = {{3.05f},{3.1f}}; // where end cloning.
+    [SerializeField] float[,] startPoint = { { -3.2f }, { -3.15f } }; // where start cloning.
+    [SerializeField] float[,] endPoint = { { 3.05f }, { 3.1f } }; // where end cloning.
 
     float difference = 1.25f; // distance between spawnpoints.
     [ContextMenu("Spawn Bombs")]
@@ -17,15 +17,15 @@ public class BombSpawner : MonoBehaviour
     {
         if (!Application.isPlaying)
         {
-        SpawnChart();
+            SpawnChart();
         }
     }
 
     void SpawnChart()
     {
-        for(float i = startPoint[0,0]; i <= endPoint[0,0]; i += difference)
+        for (float i = startPoint[0, 0]; i <= endPoint[0, 0]; i += difference)
         {
-            for(float j = startPoint[1,0]; j <= endPoint[1,0]; j += difference)
+            for (float j = startPoint[1, 0]; j <= endPoint[1, 0]; j += difference)
             {
                 BombsSpawning(i, j);
                 IconsSpawning(i, j);

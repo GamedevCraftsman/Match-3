@@ -1,15 +1,13 @@
-using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
-using UnityEditor;
-using System.Data;
 
 public class GroupingAndDeleting : MonoBehaviour, IPointerClickHandler
 {
     public enum bombsColor { Blue, Red, Green, Orange, Purple, Nothing };
     public bombsColor color;
 
+    const int downBorder = 0;
     const int offset = 1;
     const int columnSize = 6;
     const int numberOfNeighbors = 1;
@@ -45,12 +43,12 @@ public class GroupingAndDeleting : MonoBehaviour, IPointerClickHandler
             bombsForDelete.Add(cells[neighborIndex].bomb);
             cells[neighborIndex].isFree = true;
         }
-        CheckingFarBombs(neighborIndex);    
+        CheckingFarBombs(neighborIndex);
     }
 
     bool CheckBorders(int neighborIndex)
     {
-        return (neighborIndex < cells.Length && neighborIndex >= 0);
+        return (neighborIndex < cells.Length && neighborIndex >= downBorder);
     }
 
     bool IsNeighborMatchingColor(int neighborIndex)
@@ -67,7 +65,7 @@ public class GroupingAndDeleting : MonoBehaviour, IPointerClickHandler
 
     void CheckingTheNumberAndDeleteNeighbors()
     {
-        if (bombsForDelete.Count() >= numberOfNeighbors)
+        if (bombsForDelete.Count >= numberOfNeighbors)
         {
             DeleteBombsFromList();
         }
@@ -80,7 +78,7 @@ public class GroupingAndDeleting : MonoBehaviour, IPointerClickHandler
         {
             Destroy(bomb);
             cells[clickedCellIndex].isFree = true;
-            Destroy(gameObject);           
+            Destroy(gameObject);
         }
     }
 
