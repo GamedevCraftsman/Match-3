@@ -13,7 +13,8 @@ public class GroupingAndDeleting : MonoBehaviour, IPointerClickHandler
     const int offset = 1;
     const int columnSize = 6;
     const int numberOfNeighbors = 1;
-    int[] farBombsIndexes = { 5, 6, 11, 12, 17, 18, 23, 34, 29, 30 };
+    int[] farUpBombsIndexes = { 6, 12, 18, 24, 30 };
+    int[] farDownBombsIndexes = { 5, 11, 17, 23, 29, 35 };
     List<GameObject> bombsForDelete = new List<GameObject>();
     int clickedCellIndex = -1;
     CellScript[] cells;
@@ -77,8 +78,8 @@ public class GroupingAndDeleting : MonoBehaviour, IPointerClickHandler
     {
         foreach (var bomb in bombsForDelete)
         {
-            cells[clickedCellIndex].isFree = true;           
             Destroy(bomb);
+            cells[clickedCellIndex].isFree = true;
             Destroy(gameObject);           
         }
     }
@@ -97,25 +98,29 @@ public class GroupingAndDeleting : MonoBehaviour, IPointerClickHandler
 
     void CheckingFarBombs(int neighborIndex)
     {
-        for (int i = 0; i < farBombsIndexes.Length; i++)
+        for (int i = 0; i < farUpBombsIndexes.Length; i++)
         {
             CheckUpBombs(neighborIndex, i);
-            CheckDownBombs(neighborIndex, i);
+
+        }
+        for (int j = 0; j < farDownBombsIndexes.Length; j++)
+        {
+            CheckDownBombs(neighborIndex, j);
         }
     }
 
     void CheckUpBombs(int neighborIndex, int i)
     {
-        if (CheckBorders(neighborIndex) && neighborIndex == clickedCellIndex + 1 && neighborIndex == farBombsIndexes[i])
+        if (CheckBorders(neighborIndex) && neighborIndex == clickedCellIndex + offset && neighborIndex == farUpBombsIndexes[i])
         {
             bombsForDelete.Remove(cells[clickedCellIndex + offset].bomb);
             cells[clickedCellIndex + offset].isFree = false;
         }
     }
 
-    void CheckDownBombs(int neighborIndex, int i)
+    void CheckDownBombs(int neighborIndex, int j)
     {
-        if (CheckBorders(neighborIndex) && neighborIndex == clickedCellIndex - 1 && neighborIndex == farBombsIndexes[i])
+        if (CheckBorders(neighborIndex) && neighborIndex == clickedCellIndex - offset && neighborIndex == farDownBombsIndexes[j])
         {
             bombsForDelete.Remove(cells[clickedCellIndex - offset].bomb);
             cells[clickedCellIndex + offset].isFree = false;
