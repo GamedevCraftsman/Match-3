@@ -109,7 +109,7 @@ public class GroupingAndDeleting : MonoBehaviour, IPointerClickHandler
 
     void CheckUpBombs(int neighborIndex, int i)
     {
-        if (CheckBorders(neighborIndex) && neighborIndex == clickedCellIndex + offset && neighborIndex == farUpBombsIndexes[i])
+        if (CheckBorders(neighborIndex) && CheckUpNeighbor(neighborIndex) && IsUpNeighborNumberEquelArray(neighborIndex, i))
         {
             bombsForDelete.Remove(cells[clickedCellIndex + offset].bomb);
             cells[clickedCellIndex + offset].isFree = false;
@@ -118,11 +118,31 @@ public class GroupingAndDeleting : MonoBehaviour, IPointerClickHandler
 
     void CheckDownBombs(int neighborIndex, int j)
     {
-        if (CheckBorders(neighborIndex) && neighborIndex == clickedCellIndex - offset && neighborIndex == farDownBombsIndexes[j])
+        if (CheckBorders(neighborIndex) && CheckDownNeighbor(neighborIndex) && IsDownNeighborNumberEquelArray(neighborIndex, j))
         {
             bombsForDelete.Remove(cells[clickedCellIndex - offset].bomb);
             cells[clickedCellIndex + offset].isFree = false;
         }
+    }
+
+    bool IsUpNeighborNumberEquelArray(int neighborIndex, int i)
+    {
+        return neighborIndex == farUpBombsIndexes[i];
+    }
+
+    bool IsDownNeighborNumberEquelArray(int neighborIndex, int j)
+    {
+        return neighborIndex == farDownBombsIndexes[j];
+    }
+
+    bool CheckUpNeighbor(int neighborIndex)
+    {
+        return neighborIndex == clickedCellIndex + offset;
+    }
+
+    bool CheckDownNeighbor(int neighborIndex)
+    {
+        return neighborIndex == clickedCellIndex - offset;
     }
 }
 

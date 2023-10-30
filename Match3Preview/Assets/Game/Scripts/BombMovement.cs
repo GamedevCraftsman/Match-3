@@ -84,7 +84,7 @@ public class BombMovement : MonoBehaviour
     {
         for (int i = 0; i < cells.Length; i++)
         {
-            if (bomb.transform.position.x == cells[i].transform.position.x && bomb.transform.position.y <= cells[i].transform.position.y + yPointFrom && bomb.transform.position.y >= cells[i].transform.position.y - yPointTo)
+            if (IsXPointsEquals(i) && IsYPointsEqualsFrom(i) && IsYPointEqualsTo(i))
             {
                 cells[i].bomb = gameObject;
                 cells[i].isFree = false;
@@ -98,5 +98,20 @@ public class BombMovement : MonoBehaviour
             }
         }
         BottomBorder();
+    }
+
+    bool IsXPointsEquals(int i)
+    {
+        return bomb.transform.position.x == cells[i].transform.position.x;
+    }
+
+    bool IsYPointsEqualsFrom(int i)
+    {
+        return bomb.transform.position.y <= cells[i].transform.position.y + yPointFrom;
+    }
+
+    bool IsYPointEqualsTo(int i)
+    {
+        return bomb.transform.position.y >= cells[i].transform.position.y - yPointTo;
     }
 }
